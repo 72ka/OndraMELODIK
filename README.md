@@ -17,8 +17,8 @@
 - Minimum CPU usage - two byte transfer, in some cases even one byte transfer, this is essential for such a slow computer
 - External interface - no changes on the computer
 - Designed with 80´ technology - all parts was available in 1985
-- Centronics printer port in one case
-- 3D printed case
+- DB25 Centronics printer port (formerly known as LPT from PC) in one case
+- 3D printed case STL files included
 
 ### Preview
 
