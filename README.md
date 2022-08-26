@@ -32,10 +32,10 @@
 4. Switch the switch to the MELODIK position
 5. Plug the 3.5mm audio jack of your favorite audio system
 6. Turn on Ondra
-7. If you hear some noise or tone, just push once the MUTE button
+7. If you hear some noise or tone, just push once the RESET button
 8. Load the software [meltest.bin](https://github.com/72ka/OndraMELODIK/raw/main/Software/demo_test.bin) from this repository and test the device and listen the music
 
-> Notice: If you perform just Ondra reset and some tone or noise is coming out, just push the MUTE button once
+> Notice: If you perform just Ondra reset and some tone or noise is coming out, just push the RESET button once
 
 #### As printer interface
 
