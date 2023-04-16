@@ -1,6 +1,8 @@
 # OndraMELODIK
 
  Music interface for the famous czechoslovak home computer [TESLA Ondra SPO186](http://www.ondraspo186.8u.cz/ "Tento web se zabývá československým počítačem Tesla Ondra SPO 186")
+ 
+ You can read the OndraMELODIK story in [this article](http://www.ondraspo186.8u.cz/?p=588) (Czech language)
 
 ![](https://github.com/72ka/OndraMELODIK/raw/main/Images/Krabicka.jpg)
 > OndraMELODIK music interface - introduced in 2022
