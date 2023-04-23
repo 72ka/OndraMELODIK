@@ -5,7 +5,7 @@ LS174	EQU 11110111b		; memory mapping, audio_out, timers	(PORT3)
 LS374	EQU 11111101b		; printer port	      			(PORT9)
 LS175	EQU 11111110b		; beeper and relay    			(PORT10)
 LS173	EQU 11111110b		; LED, strobe and serial_out		(PORT10)
-LS373	EQU 0FFE0h			; keyboard, audio_in and serial_in      (IN-PORT)
+LS373	EQU 0FFE0h		; keyboard, audio_in and serial_in      (IN-PORT)
 
 
 ;---------------------------------------------------------------------
@@ -14,14 +14,14 @@ LS373	EQU 0FFE0h			; keyboard, audio_in and serial_in      (IN-PORT)
 ;---------------------------------------------------------------------
 muteMELODIK:
 
-                ld      a, 09FH
-                call writeSN
-                ld      a, 0BFH
-                call writeSN
-                ld      a, 0DFH
-                call writeSN
-                ld      a, 0FFH
-                call writeSN
+	ld      a, 09FH
+        call writeSN
+        ld      a, 0BFH
+        call writeSN
+        ld      a, 0DFH
+        call writeSN
+        ld      a, 0FFH
+        call writeSN
 				
 ret
 	
