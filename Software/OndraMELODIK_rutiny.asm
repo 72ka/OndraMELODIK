@@ -5,7 +5,7 @@ LS174	EQU 11110111b		; memory mapping, audio_out, timers	(PORT3)
 LS374	EQU 11111101b		; printer port	      			(PORT9)
 LS175	EQU 11111110b		; beeper and relay    			(PORT10)
 LS173	EQU 11111110b		; LED, strobe and serial_out		(PORT10)
-LS373	EQU 0FFE0h		; keyboard, audio_in and serial_in      (IN-PORT)
+LS373	EQU 0FFE0h			; keyboard, audio_in and serial_in      (IN-PORT)
 
 
 ;---------------------------------------------------------------------
@@ -14,13 +14,13 @@ LS373	EQU 0FFE0h		; keyboard, audio_in and serial_in      (IN-PORT)
 ;---------------------------------------------------------------------
 muteMELODIK:
 
-				LD      A, 09FH
+                ld      a, 09FH
                 call writeSN
-                LD      A, 0BFH
+                ld      a, 0BFH
                 call writeSN
-                LD      A, 0DFH
+                ld      a, 0DFH
                 call writeSN
-                LD      A, 0FFH
+                ld      a, 0FFH
                 call writeSN
 				
 ret
@@ -80,9 +80,9 @@ writeSN:
 		; kvuli uspore CPU casu
 		push af
 		ld a, 00011111b ;nahodi STB do high
-		OUT (LS173), a ;(PORT10)
+		out (LS173), a ;(PORT10)
 		pop af
-		OUT (LS374), A ;odesle byte na paralelni port
+		out (LS374), A ;odesle byte na paralelni port
 		ld a, 00010111b ;nahodi STB do low - strobe
-		OUT (LS173), a ;(PORT10)
+		out (LS173), a ;(PORT10)
 ret
