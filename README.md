@@ -1,6 +1,8 @@
 # OndraMELODIK
 
  Music interface for the famous czechoslovak home computer [TESLA Ondra SPO186](http://www.ondraspo186.8u.cz/ "Tento web se zabývá československým počítačem Tesla Ondra SPO 186")
+
+ SMD version with Joystick interface, but without printer connector by Solaris104 here: [Ondra JOY/MELODIK](http://www.ondraspo186.8u.cz/?p=641).
  
  You can read the OndraMELODIK story in [this article](http://www.ondraspo186.8u.cz/?p=588) (Czech language)
 
